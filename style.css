@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #fff8f0;
+}
+
+.main {
+    text-align: center;
+    color: #5a3e36;
+}
+
+.dog-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.dog-card {
+    text-align: center;
+    background-color: #fdf3ea;
+    border: 1px solid #e0d6cf;
+    padding: 10px;
+    border-radius: 50px;
+    width: 250px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dog-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
